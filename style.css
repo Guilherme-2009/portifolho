@@ -1,0 +1,104 @@
+body{
+    background-image: linear-gradient(60deg, #3498db, #8e44ad, #3498db);
+    height: 150vh;
+}
+
+*{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.corpo a{
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+    
+    
+}
+
+.corpo li{
+    list-style-type: none;
+}
+
+.conteudo img{
+    width: 5%;
+    height: auto;
+    border-radius: 50%;
+    
+}
+
+li{
+    display: inline-block;
+}
+
+.cont{
+    background-color: rgb(27, 26, 26);
+    border-radius: 25px;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+}
+
+.conte{
+    background-color: rgb(27, 26, 26);
+    border-radius: 25px;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+}
+
+.curriculo a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+.curriculo{
+    background-color: rgb(27, 26, 26);
+    border-radius: 25px ;
+    margin-bottom: 20px;
+    padding: 25px 15px;
+}
+
+.conteudo{
+    background-color: rgb(27, 26, 26);
+    border-radius: 25px;
+    margin-bottom: 20px;
+
+}
+
+
+.proje td{
+    padding: 100px 100px;
+    align-items: center;
+    background-color: rgb(27, 26, 26);
+    border-radius: 25px;
+    margin-bottom: 15px;
+    justify-content: center;
+    
+}
+
+
+
+
+  .proje table {
+    width: 500px; /* Para garantir que a tabela ocupe toda a largura disponível */
+    text-align: center; /* Centralizar o conteúdo da tabela */
+}
+
+.proje td {
+    padding: 50px; /* Ajuste o valor conforme necessário */
+}
+
+.proje img {
+    max-width: 100%; /* Para garantir que as imagens não ultrapassem os limites do contêiner */
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+.proje table{
+    margin: 0 auto;
+}
+
