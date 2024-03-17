@@ -1,0 +1,343 @@
+:root {
+    /* Cores Principais */
+    --cor-primaria: #FF5733; /* Laranja */
+    --cor-secundaria: #3C3E50; /* Azul Escuro */
+    
+    /* Cores de Destaque */
+    --cor-destaque: #F1C40F; /* Amarelo */
+    --cor-destaque-escura: #c9c9c9; /* Amarelo Escuro */
+    
+    /* Cores de Fundo */
+    --cor-fundo: #303030; /* Cinza Azulado */
+    --cor-fundo-claro-ff: #FFFFFF; /* Branco */
+    --cor-fundo-escuro-20: #202020; /* Azul Escuro */
+    --cor-fundo-suave: #F2F3F4; /* Cinza Claro */
+    --cor-fundo-claro-f2: #F2F3F4; /* Cinza Claro */
+    --cor-fundo-escuro-30: #303030; /* Azul Escuro */
+    --cor-fundo-accent: #E74C3C; /* Vermelho Escuro */
+    --cor-fundo-suave-lilas: #E6E6FA; /* Lilás muito suave */
+    
+    /* Cores de Texto */
+    --cor-texto: #FFFFFF; /* Branco */
+    --cor-texto-secundario: #95A5A6; /* Cinza */
+    
+    /* Cores de Botões */
+    --cor-botao: #FF5733; /* Laranja */
+    --cor-botao-hover: #E74C3C; /* Laranja Escuro */
+    
+    /* Cores de Links */
+    --cor-link: #3498DB; /* Azul Claro */
+    --cor-link-hover: #2980B9; /* Azul */
+
+    /* Cores normais */
+    --verde-suave: #7FFF00;
+    --azul-claro: #ADD8E6;
+    --rosa-pastel: #FFB6C1;
+    --amarelo-suave: #FFFF99;
+    --lilas-claro: #E6E6FA;
+    --lilas-suave: #D8BFD8;
+    
+    /* Cores de Texto */
+    --cor-texto: #FFFFFF; /* Branco */
+    --cor-texto-secundario: #95A5A6; /* Cinza */
+}
+
+body {
+    background-image: url(./favoritos/00228.png);
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    background-color: #262626;
+    padding: 20px;
+    text-align: center;
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: var(--cor-link);
+    margin: 10px;
+    color: var(--cor-link);
+}
+
+a:hover {
+    color: var(--cor-link-hover);
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+}
+
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px; 
+    color: #d9d9d9;  
+}
+
+li {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+    color: #d9d9d9;
+}
+
+.my {
+    color: var(--cor-destaque-escura);
+}
+
+.card {
+    background-color: #262626;
+    width: 300px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    height: 380px;
+    display: block;
+    box-shadow: #171717 1px;
+}
+
+.card-projetos {
+    background-color: #262626;
+    width: 600px;
+    border-radius: 5px;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    height: 500px;
+    display: block;
+    box-shadow: #171717 1px;
+}
+
+.me {
+    border-radius: 50%;
+    border: 3px solid #303030;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+}
+
+.linguagens {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    margin-top: 30%;
+}
+
+
+.me-a {
+    margin: 0;
+}
+
+.voltar {
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: #3C3E50;
+    border-radius: 5px;
+}
+
+.card-projetos {
+    display: block;
+}
+
+.card-projetos ul {
+    margin-top: 35%;
+}
+
+.card-projetos img {
+    height: 150px;
+    width: 150px;
+}
+
+ul, li, img {
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #262626;
+    text-align: center;
+    position: absolute;
+    top: 96%;
+    padding: 20px;
+    width: 97.9%;
+
+}
+
+strong {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c9c9c9;
+}
+
+.name {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    color: #c9c9c9;
+}
+
+p {
+    color: #c9c9c9;
+}
+
+button {
+    border: none;
+    color: #c9c9c9;
+    background-color: var(--cor-secundaria);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 45%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    font-style: normal;
+    color: var(--cor-link);
+    cursor: pointer;
+}
+
+button:hover {
+    color: var(--cor-link-hover);
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -0%);
+    width: 1000px;
+    height: 100%;
+    overflow: auto;
+
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #101010;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+.modal-content {
+    background-color: #262626;
+    border-radius: 5px;
+}
+
+/* Estilo para a barra de rolagem */
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+  }
+  
+/* Estilo para o traço da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Cor do traço da barra de rolagem */
+}
+  
+/* Estilo para a área de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Cor de fundo da barra de rolagem */
+}
+
+h2 {
+    color: #c9c9c9 ;
+}
+
+strong {
+    color: #c9c9c9;
+}
+
+.contato {
+    margin-top: 55%;
+}
+
+.h3-contato {
+    margin-top: 40%;
+}
+
+ion-icon {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.dc:hover{
+    font-size: 40px;
+    color: var(--cor-link-hover);
+    transition: 1s;
+}
+
+.whats:hover {
+    font-size: 40px;
+    color: var(--verde-suave);
+    transition: 1s;
+}
+
+.ig:hover {
+    font-size: 40px;
+    color: var(--rosa-pastel);
+    transition: 1s;
+}
+
+.button-dc {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
